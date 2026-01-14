@@ -10,51 +10,30 @@ This project implements a real-time drowsiness detection system using computer v
 The repository serves as both a functional safety prototype and a demonstration of real-time AI system integration, highlighting skills in deep learning, video processing, and applied computer vision.
 
 ## Features
-🎥 Real-Time Video Stream Processing
 
- - Captures and processes live video frames using OpenCV
-  
- - Optimized for low-latency inference to enable near-instantaneous alerts
-  
- - Suitable for webcam-based or embedded camera setups
+### Real-Time Video Processing
 
-👤 Robust Face Detection Pipeline
+- Captures and analyzes live camera input using OpenCV
 
- - YOLOv8 is used for fast and accurate full-face detection
-  
- - Haar Cascade classifiers provide complementary detection for facial regions
-  
- - Multi-model approach increases reliability under varying lighting and head poses
+- Designed for low-latency, frame-by-frame inference
 
-😴 Multi-Metric Drowsiness Detection
+### Face Detection and Analysis
 
- - The system monitors three primary behavioral indicators:
-  
- - Eye Closure Detection
-  
- - Tracks eye visibility across frames
-  
- - Identifies prolonged closure patterns associated with fatigue
-  
- - Head Tilt Analysis
-  
- - Detects abnormal head orientation or downward tilting
-  
- - Useful for identifying micro-sleep or loss of posture control
-  
- - Yawning Detection
-  
- - Monitors mouth opening patterns
-  
- - Detects frequent or extended yawns as a fatigue signal
+- Uses YOLOv8 for full-face detection
 
-🔊 Auditory Alert System
+- Employs Haar Cascade classifiers for additional facial feature detection
 
- - Integrates Pygame to play real-time warning sounds
-  
- - Alerts are triggered when drowsiness thresholds are exceeded
-  
- - Designed to immediately regain driver attention
+### Drowsiness Indicators
+
+- Eye closure detection
+
+- Head tilt and posture analysis
+
+- Yawning detection based on mouth state
+
+### Audio Alert System
+
+- Triggers warning sounds using Pygame when drowsiness indicators exceed predefined heuristic conditions
 
 ## Technical Architecture
 
