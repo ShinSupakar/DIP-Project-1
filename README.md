@@ -63,6 +63,22 @@ The system evaluates multiple visual indicators on a per-frame basis:
 
 Alerts are triggered when one or more indicators exceed predefined thresholds. While the system does not use temporal aggregation or sequence-based models, combining multiple cues improves robustness compared to single-indicator detection.
 
+## 💻 Tech Stack
+
+- Programming Language: Python
+
+- Deep Learning Framework: PyTorch
+
+- Object Detection: YOLOv8
+
+- Computer Vision: OpenCV
+
+- Face & Feature Detection: Haar Cascade Classifiers
+
+- Audio Alerts: Pygame
+
+- Input Source: Webcam / Live Camera Feed
+
 ## 🧩 Use Cases
 
 - Driver safety monitoring prototypes
