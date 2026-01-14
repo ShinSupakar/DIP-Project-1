@@ -55,3 +55,22 @@ The repository serves as both a functional safety prototype and a demonstration 
  - Alerts are triggered when drowsiness thresholds are exceeded
   
  - Designed to immediately regain driver attention
+
+## Technical Architecture
+
+ Video Capture (OpenCV)
+         ↓
+ Frame Preprocessing
+         ↓
+ Face Detection (YOLOv8 + Haar Cascade)
+         ↓
+ Facial Feature Analysis
+         ↓
+ Drowsiness Metric Evaluation
+         ↓
+ Alert Trigger (Pygame Audio)
+
+ ## 📊 Drowsiness Detection Methodology
+
+ 
+
