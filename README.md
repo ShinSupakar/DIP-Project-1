@@ -38,15 +38,15 @@ The repository serves as both a functional safety prototype and a demonstration 
 ## 🧠 Technical Architecture
 
 Camera Input (OpenCV)<br>
-↓<br>
+         ↓<br>
 Frame Preprocessing<br>
-↓<br>
+         ↓<br>
 Face Detection (YOLOv8 / Haar Cascade)<br>
-↓<br>
+         ↓<br>
 Facial Feature Evaluation<br>
-↓<br>
+         ↓<br>
 Heuristic Drowsiness Rules<br>
-↓<br>
+         ↓<br>
 Audio Alert (Pygame)
 
  ## 📊 Drowsiness Detection Methodology
