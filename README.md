@@ -9,7 +9,7 @@ This project implements a real-time drowsiness detection system using computer v
 
 The repository serves as both a functional safety prototype and a demonstration of real-time AI system integration, highlighting skills in deep learning, video processing, and applied computer vision.
 
-## Features
+## ⚙️ Features
 
 ### Real-Time Video Processing
 
@@ -35,18 +35,18 @@ The repository serves as both a functional safety prototype and a demonstration 
 
 - Triggers warning sounds using Pygame when drowsiness indicators exceed predefined heuristic conditions
 
-## Technical Architecture
+## 🧠 Technical Architecture
 
-Camera Input (OpenCV)
-        ↓
-Frame Preprocessing
-        ↓
-Face Detection (YOLOv8 / Haar Cascade)
-        ↓
-Facial Feature Evaluation
-        ↓
-Heuristic Drowsiness Rules
-        ↓
+Camera Input (OpenCV)<br>
+↓<br>
+Frame Preprocessing<br>
+↓<br>
+Face Detection (YOLOv8 / Haar Cascade)<br>
+↓<br>
+Facial Feature Evaluation<br>
+↓<br>
+Heuristic Drowsiness Rules<br>
+↓<br>
 Audio Alert (Pygame)
 
  ## 📊 Drowsiness Detection Methodology
